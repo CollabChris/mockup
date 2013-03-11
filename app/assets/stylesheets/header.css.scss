@@ -1,0 +1,48 @@
+//This is the header CSS
+
+.header-bar{
+	
+	height:60px;
+	width:100%;
+	
+	background-color: #FFF;
+	
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+a .logo {
+	
+	width:200px;
+	height:60px;
+	
+	background-image: image-url("application/logo.png");
+	background-repeat: no-repeat;
+}
+
+nav.top ul{
+	
+	list-style: none;
+	
+	
+	li{
+		
+		float: left;
+		
+		a{
+			
+			font-family: "futura-pt", sans-serif;
+		}
+			
+	}
+}
+
+@media all and (-webkit-min-device-pixel-ratio : 1.5) {
+    a .logo {
+    	width:200px;
+    	height:60px;
+        background-image: image-url("application/logo@2x.png");
+        background-size: 200px 60px;
+    }
+}
